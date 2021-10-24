@@ -1,7 +1,7 @@
 import React from "react";
 
 function Match() {
-  <article className="Match">
+  return(<article className="Match">
     <h1>
       Joe <span>vs</span> Bob
     </h1>
@@ -9,7 +9,7 @@ function Match() {
     <h2>Joe is the winner by 1!</h2>
     {/* To be shown when there is no winner */}
     <h2>No winners yet!</h2>
-  </article>;
+  </article>)
 }
 
 export default Match;
